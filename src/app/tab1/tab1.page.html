@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      TIENDA
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- Visualizar datos de datosProducto -->
+  <ion-card color="light">
+    <ion-img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" class="imagen"> </ion-img>
+    <ion-card-header>
+      <ion-card-title>Mens Cotton Jacket</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Añadir producto al array del servicio -->
+  <ion-button expand="block" fill="clear" shape="round" >
+    AÑADIR
+  </ion-button>
+
+  <!-- Generar producto aleatorio -->
+  <ion-button expand="block" fill="clear" shape="round" (click)="onClick()">
+    NUEVO
+  </ion-button>
+</ion-content>
